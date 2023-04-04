@@ -1,0 +1,87 @@
+a:link{
+color#00008B;
+}
+
+a:hover,a:visited:hover{
+color:purple;
+}
+
+
+a:visited{
+color:red;
+}
+
+input[type=text] {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size:2 0px;
+}
+
+table{
+border:1px solid;
+
+}
+
+td img{
+width:100%
+margin:1em;
+border: 5px solid;
+background-color:white;
+}
+
+#pfp > td> a {
+    margin-left:40px;
+}
+
+    #favorites{
+        display:grid;
+        justify-content: center;
+        background-color:beige;
+    }
+    #favorites  table{
+        background-color:white;
+    }
+
+    #classes{
+        display:grid;;
+        background-color:beige;
+        justify-content:center;
+
+    }
+
+    #classes  > ol{
+        background-color:white;
+        border:solid black;
+
+    }
+
+    button{
+        margin:10px;
+        width:100px;
+    }
+
+    @media only screen and (max-width: 1000px)  and (min-width: 500px)  {
+        img{
+            width:50%;
+            height:50%;
+        }
+        audio{
+            width:100%;
+        }
+    }
+   /* @media only screen and (max-width: 500px) {
+        img{
+            width:50%;
+            height:50%;
+        }
+        audio{
+            width:50%;
+        }
+        h1,h2{
+           font-size:90%;
+        }
+*/
+
+    }
